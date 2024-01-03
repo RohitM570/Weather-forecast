@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Weatherstyle.css" <title>WEATHER APP</title>
+</head>
+
+<body>
+    <div class="mdiv">
+        <div class="weather_app">
+            <h2 align="center">WEATHER FORECAST</h2>
+            <div class="ip">
+                <input type="text" id="userText">
+                <button onclick="getWeatherData();"><img
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png"
+                        height="40px" width="40px" align="center"></button>
+            </div>
+            <div class="info" align="center">
+                <img src="E:\Q-Spiders\JavaScript\Sunny.png" alt="weather" class="weather_img">
+                <h1 id="temp">27°C</h1>
+                <h2 id="city">PUNE</h2>
+            </div>
+            <div class="info2">
+                <div class="humidity">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1113/1113723.png" alt="humidity" class="humi">
+                    <h3>HUMIDITY</h3>
+                    <h4 id="humidity-info" >50%</h4>
+                </div>
+                <div class="wind">
+                    <img src="https://toppng.com/uploads/preview/computer-icons-weather-wind-rain-windy-weather-icon-11553394233bil1pfsjcf.png"
+                        alt="humidity" class="humi" <h3>WIND</h3>
+                    <h4 id="wind-info">4 km/h</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="WeatherScript.js"></script>
+
+</body>
+
+</html>
